@@ -1,0 +1,2181 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.22.0108.1052                               -->
+<workbook original-version='18.1' source-build='2021.2.8 (20212.22.0108.1052)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Financials (Discount_Goods_Big_Store_Financials)' inline='true' name='federated.1piouhw0v1gl1b17mirxw1p1e7zq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Discount_Goods_Big_Store_Financials' name='excel-direct.0p8wp870v15b251b4m7xq1iba6wg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/angel/OneDrive/Pictures/Documents/Assignments/G_Fall 2022-MSI-MSI-MSI/ACCT 321/Discount_Goods_Big_Store_Financials.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0p8wp870v15b251b4m7xq1iba6wg' name='Financials' table='[Financials$]' type='table'>
+          <columns gridOrigin='A1:CP21:no:A1:CP21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Company' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='real' name='Cash and cash equivalents' ordinal='2' />
+            <column datatype='real' name='Receivables, net' ordinal='3' />
+            <column datatype='real' name='Inventory' ordinal='4' />
+            <column datatype='real' name='Assets of discontinued operations' ordinal='5' />
+            <column datatype='real' name='Prepaid expenses and other' ordinal='6' />
+            <column datatype='real' name='Total current assets' ordinal='7' />
+            <column datatype='real' name='Average accounts receivable (net)' ordinal='8' />
+            <column datatype='real' name='Land' ordinal='9' />
+            <column datatype='real' name='Buildings and improvements' ordinal='10' />
+            <column datatype='real' name='Fixtures and equipment' ordinal='11' />
+            <column datatype='real' name='Computer hardware and software' ordinal='12' />
+            <column datatype='real' name='Construction-in-progress' ordinal='13' />
+            <column datatype='real' name='Less accumulated depreciation' ordinal='14' />
+            <column datatype='real' name='Property and equipment, net' ordinal='15' />
+            <column datatype='real' name='Goodwill' ordinal='16' />
+            <column datatype='integer' name='Right of use asset - operating net,' ordinal='17' />
+            <column datatype='integer' name='Right of use asset - finance, net' ordinal='18' />
+            <column datatype='real' name='Property under capital lease' ordinal='19' />
+            <column datatype='real' name='Investments in equity securities' ordinal='20' />
+            <column datatype='real' name='Total noncurrent assets' ordinal='21' />
+            <column datatype='real' name='Total assets' ordinal='22' />
+            <column datatype='real' name='Average total assets' ordinal='23' />
+            <column datatype='real' name='Average fixed assets' ordinal='24' />
+            <column datatype='integer' name='Accounts payable' ordinal='25' />
+            <column datatype='integer' name='Accrued liabilities' ordinal='26' />
+            <column datatype='real' name='Accrued income taxes' ordinal='27' />
+            <column datatype='real' name='Current liabilities of discontinued operations' ordinal='28' />
+            <column datatype='real' name='Current portion capital lease' ordinal='29' />
+            <column datatype='real' name='Current portion of lease liability - finance lease' ordinal='30' />
+            <column datatype='real' name='Current portion of lease liability - operating lease' ordinal='31' />
+            <column datatype='real' name='Current portion of long-term debt' ordinal='32' />
+            <column datatype='real' name='Short-term borrowings' ordinal='33' />
+            <column datatype='real' name='Refund liability' ordinal='34' />
+            <column datatype='real' name='Total current liabilities' ordinal='35' />
+            <column datatype='real' name='Long-term debt' ordinal='36' />
+            <column datatype='real' name='Capital lease liability' ordinal='37' />
+            <column datatype='integer' name='Lease liability - operating lease' ordinal='38' />
+            <column datatype='integer' name='Lease liability - finance lease' ordinal='39' />
+            <column datatype='real' name='Deferred income taxes' ordinal='40' />
+            <column datatype='real' name='Total noncurrent liabilities' ordinal='41' />
+            <column datatype='real' name='Total liabilities (Cur + noncur)' ordinal='42' />
+            <column datatype='real' name='Common stock' ordinal='43' />
+            <column datatype='real' name='Additional paid-in capital' ordinal='44' />
+            <column datatype='real' name='Retained earnings' ordinal='45' />
+            <column datatype='real' name='Accumulated other comprehensive income(loss)' ordinal='46' />
+            <column datatype='real' name='Total shareholders&apos; equity' ordinal='47' />
+            <column datatype='real' name='Total liabilities and equity' ordinal='48' />
+            <column datatype='real' name='Accounts payable (CF)' ordinal='49' />
+            <column datatype='real' name='Accrued income taxes (CF)' ordinal='50' />
+            <column datatype='real' name='Accrued liabilities (CF)' ordinal='51' />
+            <column datatype='real' name='(CF)-Cash &amp; cash equivalents, beginning of year' ordinal='52' />
+            <column datatype='real' name='(CF)-Cash &amp; cash equivalents, end of year' ordinal='53' />
+            <column datatype='real' name='Change in accounts receivable' ordinal='54' />
+            <column datatype='real' name='Deferred income taxes (CF)' ordinal='55' />
+            <column datatype='real' name='Depreciation and amortization (CF)' ordinal='56' />
+            <column datatype='real' name='Dividends paid' ordinal='57' />
+            <column datatype='real' name='Income from continuing operations' ordinal='58' />
+            <column datatype='real' name='Inventories (CF)' ordinal='59' />
+            <column datatype='real' name='Investment and business acquisitions, net of cash acquired' ordinal='60' />
+            <column datatype='real' name='Net (decrease) / increase in cash and cash equivalents' ordinal='61' />
+            <column datatype='real' name='Net cash flows from financing activities' ordinal='62' />
+            <column datatype='real' name='Net cash flows from investing activities' ordinal='63' />
+            <column datatype='real' name='Net cash flows from operating activities' ordinal='64' />
+            <column datatype='real' name='Net change in short-term borrowings' ordinal='65' />
+            <column datatype='integer' name='Other financing activities' ordinal='66' />
+            <column datatype='real' name='Other investing activities' ordinal='67' />
+            <column datatype='real' name='Other operating activities' ordinal='68' />
+            <column datatype='real' name='Payments for property and equipment' ordinal='69' />
+            <column datatype='real' name='Payments of long-term debt' ordinal='70' />
+            <column datatype='real' name='Proceeds from disposal of property and equipment' ordinal='71' />
+            <column datatype='real' name='Proceeds from issuance of long-term debt' ordinal='72' />
+            <column datatype='real' name='Purchase of available for sale securities' ordinal='73' />
+            <column datatype='real' name='Purchase of Treasury stock' ordinal='74' />
+            <column datatype='real' name='(CF) Accounts Receivables, net' ordinal='75' />
+            <column datatype='real' name='Stock option exercises' ordinal='76' />
+            <column datatype='real' name='Cost of sales' ordinal='77' />
+            <column datatype='integer' name='Sales revenue' ordinal='78' />
+            <column datatype='real' name='Credit card revenue' ordinal='79' />
+            <column datatype='real' name='Less Sales returns' ordinal='80' />
+            <column datatype='integer' name='Less Discount on Sales' ordinal='81' />
+            <column datatype='real' name='Net sales' ordinal='82' />
+            <column datatype='real' name='Depreciation and amortization' ordinal='83' />
+            <column datatype='real' name='Discontinued operations, net of tax' ordinal='84' />
+            <column datatype='real' name='EBIT' ordinal='85' />
+            <column datatype='integer' name='Gain on sale' ordinal='86' />
+            <column datatype='real' name='Gross margin' ordinal='87' />
+            <column datatype='real' name='Income from continuing operations 1' ordinal='88' />
+            <column datatype='real' name='Interest income' ordinal='89' />
+            <column datatype='real' name='Net income / (loss)' ordinal='90' />
+            <column datatype='real' name='Provision for income taxes' ordinal='91' />
+            <column datatype='real' name='Selling, general and administrative expenses' ordinal='92' />
+            <column datatype='real' name='Interest expense' ordinal='93' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0p8wp870v15b251b4m7xq1iba6wg' name='Financials' table='[Financials$]' type='table'>
+          <columns gridOrigin='A1:CP21:no:A1:CP21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Company' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='real' name='Cash and cash equivalents' ordinal='2' />
+            <column datatype='real' name='Receivables, net' ordinal='3' />
+            <column datatype='real' name='Inventory' ordinal='4' />
+            <column datatype='real' name='Assets of discontinued operations' ordinal='5' />
+            <column datatype='real' name='Prepaid expenses and other' ordinal='6' />
+            <column datatype='real' name='Total current assets' ordinal='7' />
+            <column datatype='real' name='Average accounts receivable (net)' ordinal='8' />
+            <column datatype='real' name='Land' ordinal='9' />
+            <column datatype='real' name='Buildings and improvements' ordinal='10' />
+            <column datatype='real' name='Fixtures and equipment' ordinal='11' />
+            <column datatype='real' name='Computer hardware and software' ordinal='12' />
+            <column datatype='real' name='Construction-in-progress' ordinal='13' />
+            <column datatype='real' name='Less accumulated depreciation' ordinal='14' />
+            <column datatype='real' name='Property and equipment, net' ordinal='15' />
+            <column datatype='real' name='Goodwill' ordinal='16' />
+            <column datatype='integer' name='Right of use asset - operating net,' ordinal='17' />
+            <column datatype='integer' name='Right of use asset - finance, net' ordinal='18' />
+            <column datatype='real' name='Property under capital lease' ordinal='19' />
+            <column datatype='real' name='Investments in equity securities' ordinal='20' />
+            <column datatype='real' name='Total noncurrent assets' ordinal='21' />
+            <column datatype='real' name='Total assets' ordinal='22' />
+            <column datatype='real' name='Average total assets' ordinal='23' />
+            <column datatype='real' name='Average fixed assets' ordinal='24' />
+            <column datatype='integer' name='Accounts payable' ordinal='25' />
+            <column datatype='integer' name='Accrued liabilities' ordinal='26' />
+            <column datatype='real' name='Accrued income taxes' ordinal='27' />
+            <column datatype='real' name='Current liabilities of discontinued operations' ordinal='28' />
+            <column datatype='real' name='Current portion capital lease' ordinal='29' />
+            <column datatype='real' name='Current portion of lease liability - finance lease' ordinal='30' />
+            <column datatype='real' name='Current portion of lease liability - operating lease' ordinal='31' />
+            <column datatype='real' name='Current portion of long-term debt' ordinal='32' />
+            <column datatype='real' name='Short-term borrowings' ordinal='33' />
+            <column datatype='real' name='Refund liability' ordinal='34' />
+            <column datatype='real' name='Total current liabilities' ordinal='35' />
+            <column datatype='real' name='Long-term debt' ordinal='36' />
+            <column datatype='real' name='Capital lease liability' ordinal='37' />
+            <column datatype='integer' name='Lease liability - operating lease' ordinal='38' />
+            <column datatype='integer' name='Lease liability - finance lease' ordinal='39' />
+            <column datatype='real' name='Deferred income taxes' ordinal='40' />
+            <column datatype='real' name='Total noncurrent liabilities' ordinal='41' />
+            <column datatype='real' name='Total liabilities (Cur + noncur)' ordinal='42' />
+            <column datatype='real' name='Common stock' ordinal='43' />
+            <column datatype='real' name='Additional paid-in capital' ordinal='44' />
+            <column datatype='real' name='Retained earnings' ordinal='45' />
+            <column datatype='real' name='Accumulated other comprehensive income(loss)' ordinal='46' />
+            <column datatype='real' name='Total shareholders&apos; equity' ordinal='47' />
+            <column datatype='real' name='Total liabilities and equity' ordinal='48' />
+            <column datatype='real' name='Accounts payable (CF)' ordinal='49' />
+            <column datatype='real' name='Accrued income taxes (CF)' ordinal='50' />
+            <column datatype='real' name='Accrued liabilities (CF)' ordinal='51' />
+            <column datatype='real' name='(CF)-Cash &amp; cash equivalents, beginning of year' ordinal='52' />
+            <column datatype='real' name='(CF)-Cash &amp; cash equivalents, end of year' ordinal='53' />
+            <column datatype='real' name='Change in accounts receivable' ordinal='54' />
+            <column datatype='real' name='Deferred income taxes (CF)' ordinal='55' />
+            <column datatype='real' name='Depreciation and amortization (CF)' ordinal='56' />
+            <column datatype='real' name='Dividends paid' ordinal='57' />
+            <column datatype='real' name='Income from continuing operations' ordinal='58' />
+            <column datatype='real' name='Inventories (CF)' ordinal='59' />
+            <column datatype='real' name='Investment and business acquisitions, net of cash acquired' ordinal='60' />
+            <column datatype='real' name='Net (decrease) / increase in cash and cash equivalents' ordinal='61' />
+            <column datatype='real' name='Net cash flows from financing activities' ordinal='62' />
+            <column datatype='real' name='Net cash flows from investing activities' ordinal='63' />
+            <column datatype='real' name='Net cash flows from operating activities' ordinal='64' />
+            <column datatype='real' name='Net change in short-term borrowings' ordinal='65' />
+            <column datatype='integer' name='Other financing activities' ordinal='66' />
+            <column datatype='real' name='Other investing activities' ordinal='67' />
+            <column datatype='real' name='Other operating activities' ordinal='68' />
+            <column datatype='real' name='Payments for property and equipment' ordinal='69' />
+            <column datatype='real' name='Payments of long-term debt' ordinal='70' />
+            <column datatype='real' name='Proceeds from disposal of property and equipment' ordinal='71' />
+            <column datatype='real' name='Proceeds from issuance of long-term debt' ordinal='72' />
+            <column datatype='real' name='Purchase of available for sale securities' ordinal='73' />
+            <column datatype='real' name='Purchase of Treasury stock' ordinal='74' />
+            <column datatype='real' name='(CF) Accounts Receivables, net' ordinal='75' />
+            <column datatype='real' name='Stock option exercises' ordinal='76' />
+            <column datatype='real' name='Cost of sales' ordinal='77' />
+            <column datatype='integer' name='Sales revenue' ordinal='78' />
+            <column datatype='real' name='Credit card revenue' ordinal='79' />
+            <column datatype='real' name='Less Sales returns' ordinal='80' />
+            <column datatype='integer' name='Less Discount on Sales' ordinal='81' />
+            <column datatype='real' name='Net sales' ordinal='82' />
+            <column datatype='real' name='Depreciation and amortization' ordinal='83' />
+            <column datatype='real' name='Discontinued operations, net of tax' ordinal='84' />
+            <column datatype='real' name='EBIT' ordinal='85' />
+            <column datatype='integer' name='Gain on sale' ordinal='86' />
+            <column datatype='real' name='Gross margin' ordinal='87' />
+            <column datatype='real' name='Income from continuing operations 1' ordinal='88' />
+            <column datatype='real' name='Interest income' ordinal='89' />
+            <column datatype='real' name='Net income / (loss)' ordinal='90' />
+            <column datatype='real' name='Provision for income taxes' ordinal='91' />
+            <column datatype='real' name='Selling, general and administrative expenses' ordinal='92' />
+            <column datatype='real' name='Interest expense' ordinal='93' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:CP21:no:A1:CP21:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cash and cash equivalents</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cash and cash equivalents]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Cash and cash equivalents</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receivables, net</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Receivables, net]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Receivables, net</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inventory</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inventory]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Inventory</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assets of discontinued operations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Assets of discontinued operations]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Assets of discontinued operations</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prepaid expenses and other</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prepaid expenses and other]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Prepaid expenses and other</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total current assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total current assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total current assets</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average accounts receivable (net)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average accounts receivable (net)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Average accounts receivable (net)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Land]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Land</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Buildings and improvements</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Buildings and improvements]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Buildings and improvements</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fixtures and equipment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fixtures and equipment]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Fixtures and equipment</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Computer hardware and software</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Computer hardware and software]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Computer hardware and software</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Construction-in-progress</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Construction-in-progress]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Construction-in-progress</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less accumulated depreciation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Less accumulated depreciation]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Less accumulated depreciation</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property and equipment, net</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Property and equipment, net]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Property and equipment, net</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goodwill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Goodwill]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Goodwill</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Right of use asset - operating net,</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Right of use asset - operating net,]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Right of use asset - operating net,</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Right of use asset - finance, net</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Right of use asset - finance, net]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Right of use asset - finance, net</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property under capital lease</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Property under capital lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Property under capital lease</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investments in equity securities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Investments in equity securities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Investments in equity securities</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total noncurrent assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total noncurrent assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total noncurrent assets</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total assets</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average total assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average total assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Average total assets</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average fixed assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average fixed assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Average fixed assets</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accounts payable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Accounts payable]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accounts payable</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accrued liabilities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Accrued liabilities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accrued liabilities</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accrued income taxes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accrued income taxes]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accrued income taxes</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current liabilities of discontinued operations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current liabilities of discontinued operations]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current liabilities of discontinued operations</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current portion capital lease</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current portion capital lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current portion capital lease</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current portion of lease liability - finance lease</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current portion of lease liability - finance lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current portion of lease liability - finance lease</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current portion of lease liability - operating lease</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current portion of lease liability - operating lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current portion of lease liability - operating lease</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current portion of long-term debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current portion of long-term debt]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current portion of long-term debt</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short-term borrowings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Short-term borrowings]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Short-term borrowings</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Refund liability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Refund liability]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Refund liability</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total current liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total current liabilities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total current liabilities</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long-term debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long-term debt]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Long-term debt</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capital lease liability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Capital lease liability]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Capital lease liability</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lease liability - operating lease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lease liability - operating lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Lease liability - operating lease</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lease liability - finance lease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lease liability - finance lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Lease liability - finance lease</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deferred income taxes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Deferred income taxes]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Deferred income taxes</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total noncurrent liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total noncurrent liabilities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total noncurrent liabilities</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total liabilities (Cur + noncur)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total liabilities (Cur + noncur)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total liabilities (Cur + noncur)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Common stock</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Common stock]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Common stock</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional paid-in capital</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Additional paid-in capital]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Additional paid-in capital</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retained earnings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Retained earnings]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Retained earnings</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accumulated other comprehensive income(loss)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accumulated other comprehensive income(loss)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accumulated other comprehensive income(loss)</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total shareholders&apos; equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total shareholders&apos; equity]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total shareholders&apos; equity</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total liabilities and equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total liabilities and equity]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total liabilities and equity</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accounts payable (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accounts payable (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accounts payable (CF)</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accrued income taxes (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accrued income taxes (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accrued income taxes (CF)</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accrued liabilities (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accrued liabilities (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accrued liabilities (CF)</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(CF)-Cash &amp; cash equivalents, beginning of year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[(CF)-Cash &amp; cash equivalents, beginning of year]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>(CF)-Cash &amp; cash equivalents, beginning of year</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(CF)-Cash &amp; cash equivalents, end of year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[(CF)-Cash &amp; cash equivalents, end of year]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>(CF)-Cash &amp; cash equivalents, end of year</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change in accounts receivable</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Change in accounts receivable]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Change in accounts receivable</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deferred income taxes (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Deferred income taxes (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Deferred income taxes (CF)</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depreciation and amortization (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Depreciation and amortization (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Depreciation and amortization (CF)</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dividends paid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dividends paid]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Dividends paid</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income from continuing operations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income from continuing operations]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Income from continuing operations</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inventories (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inventories (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Inventories (CF)</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investment and business acquisitions, net of cash acquired</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Investment and business acquisitions, net of cash acquired]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Investment and business acquisitions, net of cash acquired</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net (decrease) / increase in cash and cash equivalents</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net (decrease) / increase in cash and cash equivalents]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net (decrease) / increase in cash and cash equivalents</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net cash flows from financing activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net cash flows from financing activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net cash flows from financing activities</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net cash flows from investing activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net cash flows from investing activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net cash flows from investing activities</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net cash flows from operating activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net cash flows from operating activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net cash flows from operating activities</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net change in short-term borrowings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net change in short-term borrowings]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net change in short-term borrowings</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other financing activities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Other financing activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Other financing activities</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other investing activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other investing activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Other investing activities</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other operating activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other operating activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Other operating activities</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payments for property and equipment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Payments for property and equipment]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Payments for property and equipment</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payments of long-term debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Payments of long-term debt]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Payments of long-term debt</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proceeds from disposal of property and equipment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Proceeds from disposal of property and equipment]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Proceeds from disposal of property and equipment</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proceeds from issuance of long-term debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Proceeds from issuance of long-term debt]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Proceeds from issuance of long-term debt</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purchase of available for sale securities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Purchase of available for sale securities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Purchase of available for sale securities</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purchase of Treasury stock</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Purchase of Treasury stock]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Purchase of Treasury stock</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(CF) Accounts Receivables, net</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[(CF) Accounts Receivables, net]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>(CF) Accounts Receivables, net</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stock option exercises</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Stock option exercises]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Stock option exercises</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost of sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost of sales]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Cost of sales</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sales revenue]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Sales revenue</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Credit card revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Credit card revenue]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Credit card revenue</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less Sales returns</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Less Sales returns]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Less Sales returns</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less Discount on Sales</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Less Discount on Sales]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Less Discount on Sales</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net sales]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net sales</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depreciation and amortization</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Depreciation and amortization]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Depreciation and amortization</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discontinued operations, net of tax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discontinued operations, net of tax]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Discontinued operations, net of tax</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EBIT]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>EBIT</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gain on sale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gain on sale]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Gain on sale</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross margin]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Gross margin</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income from continuing operations 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income from continuing operations 1]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Income from continuing operations 1</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interest income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Interest income]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Interest income</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net income / (loss)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net income / (loss)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net income / (loss)</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provision for income taxes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Provision for income taxes]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Provision for income taxes</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Selling, general and administrative expenses</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Selling, general and administrative expenses]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Selling, general and administrative expenses</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interest expense</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Interest expense]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Interest expense</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6D858CA40487424D90C9DDD61B18B383]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='AD to FA ratio' datatype='real' name='[Calculation_2540030230887628800]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(SUM([Less accumulated depreciation])*(-1))/(SUM([Buildings and improvements])+SUM([Computer hardware and software])+SUM([Construction-in-progress]))' />
+      </column>
+      <column caption='Ebit' datatype='real' name='[EBIT]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Financials' datatype='table' name='[__tableau_internal_object_id__].[Financials_6D858CA40487424D90C9DDD61B18B383]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Financials' id='Financials_6D858CA40487424D90C9DDD61B18B383'>
+            <properties context=''>
+              <relation connection='excel-direct.0p8wp870v15b251b4m7xq1iba6wg' name='Financials' table='[Financials$]' type='table'>
+                <columns gridOrigin='A1:CP21:no:A1:CP21:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Company' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='real' name='Cash and cash equivalents' ordinal='2' />
+                  <column datatype='real' name='Receivables, net' ordinal='3' />
+                  <column datatype='real' name='Inventory' ordinal='4' />
+                  <column datatype='real' name='Assets of discontinued operations' ordinal='5' />
+                  <column datatype='real' name='Prepaid expenses and other' ordinal='6' />
+                  <column datatype='real' name='Total current assets' ordinal='7' />
+                  <column datatype='real' name='Average accounts receivable (net)' ordinal='8' />
+                  <column datatype='real' name='Land' ordinal='9' />
+                  <column datatype='real' name='Buildings and improvements' ordinal='10' />
+                  <column datatype='real' name='Fixtures and equipment' ordinal='11' />
+                  <column datatype='real' name='Computer hardware and software' ordinal='12' />
+                  <column datatype='real' name='Construction-in-progress' ordinal='13' />
+                  <column datatype='real' name='Less accumulated depreciation' ordinal='14' />
+                  <column datatype='real' name='Property and equipment, net' ordinal='15' />
+                  <column datatype='real' name='Goodwill' ordinal='16' />
+                  <column datatype='integer' name='Right of use asset - operating net,' ordinal='17' />
+                  <column datatype='integer' name='Right of use asset - finance, net' ordinal='18' />
+                  <column datatype='real' name='Property under capital lease' ordinal='19' />
+                  <column datatype='real' name='Investments in equity securities' ordinal='20' />
+                  <column datatype='real' name='Total noncurrent assets' ordinal='21' />
+                  <column datatype='real' name='Total assets' ordinal='22' />
+                  <column datatype='real' name='Average total assets' ordinal='23' />
+                  <column datatype='real' name='Average fixed assets' ordinal='24' />
+                  <column datatype='integer' name='Accounts payable' ordinal='25' />
+                  <column datatype='integer' name='Accrued liabilities' ordinal='26' />
+                  <column datatype='real' name='Accrued income taxes' ordinal='27' />
+                  <column datatype='real' name='Current liabilities of discontinued operations' ordinal='28' />
+                  <column datatype='real' name='Current portion capital lease' ordinal='29' />
+                  <column datatype='real' name='Current portion of lease liability - finance lease' ordinal='30' />
+                  <column datatype='real' name='Current portion of lease liability - operating lease' ordinal='31' />
+                  <column datatype='real' name='Current portion of long-term debt' ordinal='32' />
+                  <column datatype='real' name='Short-term borrowings' ordinal='33' />
+                  <column datatype='real' name='Refund liability' ordinal='34' />
+                  <column datatype='real' name='Total current liabilities' ordinal='35' />
+                  <column datatype='real' name='Long-term debt' ordinal='36' />
+                  <column datatype='real' name='Capital lease liability' ordinal='37' />
+                  <column datatype='integer' name='Lease liability - operating lease' ordinal='38' />
+                  <column datatype='integer' name='Lease liability - finance lease' ordinal='39' />
+                  <column datatype='real' name='Deferred income taxes' ordinal='40' />
+                  <column datatype='real' name='Total noncurrent liabilities' ordinal='41' />
+                  <column datatype='real' name='Total liabilities (Cur + noncur)' ordinal='42' />
+                  <column datatype='real' name='Common stock' ordinal='43' />
+                  <column datatype='real' name='Additional paid-in capital' ordinal='44' />
+                  <column datatype='real' name='Retained earnings' ordinal='45' />
+                  <column datatype='real' name='Accumulated other comprehensive income(loss)' ordinal='46' />
+                  <column datatype='real' name='Total shareholders&apos; equity' ordinal='47' />
+                  <column datatype='real' name='Total liabilities and equity' ordinal='48' />
+                  <column datatype='real' name='Accounts payable (CF)' ordinal='49' />
+                  <column datatype='real' name='Accrued income taxes (CF)' ordinal='50' />
+                  <column datatype='real' name='Accrued liabilities (CF)' ordinal='51' />
+                  <column datatype='real' name='(CF)-Cash &amp; cash equivalents, beginning of year' ordinal='52' />
+                  <column datatype='real' name='(CF)-Cash &amp; cash equivalents, end of year' ordinal='53' />
+                  <column datatype='real' name='Change in accounts receivable' ordinal='54' />
+                  <column datatype='real' name='Deferred income taxes (CF)' ordinal='55' />
+                  <column datatype='real' name='Depreciation and amortization (CF)' ordinal='56' />
+                  <column datatype='real' name='Dividends paid' ordinal='57' />
+                  <column datatype='real' name='Income from continuing operations' ordinal='58' />
+                  <column datatype='real' name='Inventories (CF)' ordinal='59' />
+                  <column datatype='real' name='Investment and business acquisitions, net of cash acquired' ordinal='60' />
+                  <column datatype='real' name='Net (decrease) / increase in cash and cash equivalents' ordinal='61' />
+                  <column datatype='real' name='Net cash flows from financing activities' ordinal='62' />
+                  <column datatype='real' name='Net cash flows from investing activities' ordinal='63' />
+                  <column datatype='real' name='Net cash flows from operating activities' ordinal='64' />
+                  <column datatype='real' name='Net change in short-term borrowings' ordinal='65' />
+                  <column datatype='integer' name='Other financing activities' ordinal='66' />
+                  <column datatype='real' name='Other investing activities' ordinal='67' />
+                  <column datatype='real' name='Other operating activities' ordinal='68' />
+                  <column datatype='real' name='Payments for property and equipment' ordinal='69' />
+                  <column datatype='real' name='Payments of long-term debt' ordinal='70' />
+                  <column datatype='real' name='Proceeds from disposal of property and equipment' ordinal='71' />
+                  <column datatype='real' name='Proceeds from issuance of long-term debt' ordinal='72' />
+                  <column datatype='real' name='Purchase of available for sale securities' ordinal='73' />
+                  <column datatype='real' name='Purchase of Treasury stock' ordinal='74' />
+                  <column datatype='real' name='(CF) Accounts Receivables, net' ordinal='75' />
+                  <column datatype='real' name='Stock option exercises' ordinal='76' />
+                  <column datatype='real' name='Cost of sales' ordinal='77' />
+                  <column datatype='integer' name='Sales revenue' ordinal='78' />
+                  <column datatype='real' name='Credit card revenue' ordinal='79' />
+                  <column datatype='real' name='Less Sales returns' ordinal='80' />
+                  <column datatype='integer' name='Less Discount on Sales' ordinal='81' />
+                  <column datatype='real' name='Net sales' ordinal='82' />
+                  <column datatype='real' name='Depreciation and amortization' ordinal='83' />
+                  <column datatype='real' name='Discontinued operations, net of tax' ordinal='84' />
+                  <column datatype='real' name='EBIT' ordinal='85' />
+                  <column datatype='integer' name='Gain on sale' ordinal='86' />
+                  <column datatype='real' name='Gross margin' ordinal='87' />
+                  <column datatype='real' name='Income from continuing operations 1' ordinal='88' />
+                  <column datatype='real' name='Interest income' ordinal='89' />
+                  <column datatype='real' name='Net income / (loss)' ordinal='90' />
+                  <column datatype='real' name='Provision for income taxes' ordinal='91' />
+                  <column datatype='real' name='Selling, general and administrative expenses' ordinal='92' />
+                  <column datatype='real' name='Interest expense' ordinal='93' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Accumulated Depreciation to Fixed Assets Ratio Bar Chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financials (Discount_Goods_Big_Store_Financials)' name='federated.1piouhw0v1gl1b17mirxw1p1e7zq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1piouhw0v1gl1b17mirxw1p1e7zq'>
+            <column datatype='real' name='[Buildings and improvements]' role='measure' type='quantitative' />
+            <column caption='AD to FA ratio' datatype='real' name='[Calculation_2540030230887628800]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Less accumulated depreciation])*(-1))/(SUM([Buildings and improvements])+SUM([Computer hardware and software])+SUM([Construction-in-progress]))' />
+            </column>
+            <column datatype='string' name='[Company]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Computer hardware and software]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Construction-in-progress]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Fixtures and equipment]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Less accumulated depreciation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Company]' derivation='None' name='[none:Company:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Computer hardware and software]' derivation='Sum' name='[sum:Computer hardware and software:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Construction-in-progress]' derivation='Sum' name='[sum:Construction-in-progress:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Fixtures and equipment]' derivation='Sum' name='[sum:Fixtures and equipment:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Less accumulated depreciation]' derivation='Sum' name='[sum:Less accumulated depreciation:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2540030230887628800]' derivation='User' name='[usr:Calculation_2540030230887628800:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[sum:Less accumulated depreciation:ok]' />
+              <lod column='[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[sum:Computer hardware and software:ok]' />
+              <lod column='[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[sum:Construction-in-progress:ok]' />
+              <lod column='[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[sum:Fixtures and equipment:ok]' />
+              <lod column='[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[sum:Less accumulated depreciation:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[usr:Calculation_2540030230887628800:qk]</rows>
+        <cols>([federated.1piouhw0v1gl1b17mirxw1p1e7zq].[none:Company:nk] / [federated.1piouhw0v1gl1b17mirxw1p1e7zq].[none:Year:ok])</cols>
+      </table>
+      <simple-id uuid='{53C26AD5-012A-4C76-AB8A-FA523B3F5C15}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Accumulated Depreciation to Fixed Assets Ratio Bar Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[sum:Less accumulated depreciation:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[none:Company:nk]</field>
+            <field>[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[none:Year:qk]</field>
+            <field>[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[sum:Buildings and improvements:ok]</field>
+            <field>[federated.1piouhw0v1gl1b17mirxw1p1e7zq].[sum:Less accumulated depreciation:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FAAA1E97-FA09-4114-BF12-3333E616D8A0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Accumulated Depreciation to Fixed Assets Ratio Bar Chart' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
